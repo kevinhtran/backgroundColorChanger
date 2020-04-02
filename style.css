@@ -1,0 +1,20 @@
+body {
+  animation: colorchange 10s infinite;
+  -webkit-animation: colorchange 10s infinite;
+}
+
+@keyframes colorchange {
+  0% {background: #FFBD66;}
+  25% {background: #EF617B;}
+  50% {background: #D3485D;}
+  75% {background: #475677;}
+  100% {background: #283150;}
+}
+
+@-webkit-keyframes colorchange {
+  0% {background: #FFBD66;}
+  25% {background: #EF617B;}
+  50% {background: #D3485D;}
+  75% {background: #475677;}
+  100% {background: #283150;}
+}
