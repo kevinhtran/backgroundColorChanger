@@ -23,9 +23,10 @@ body {
   100% {background: #283150;}
 }
 
-.center-me {
+.top-section {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
 }
