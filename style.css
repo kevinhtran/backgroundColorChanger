@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   animation: colorchange 10s infinite;
   -webkit-animation: colorchange 10s infinite;
@@ -17,4 +21,11 @@ body {
   50% {background: #D3485D;}
   75% {background: #475677;}
   100% {background: #283150;}
+}
+
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
