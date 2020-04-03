@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
 }
-/* body {
-  animation: colorchange 120s infinite;
-  -webkit-animation: colorchange 120s infinite;
+body {
+  /* animation: colorchange 120s infinite;
+  -webkit-animation: colorchange 120s infinite; */
+  background-color: #D02120;
 }
 
-@keyframes colorchange {
+/* @keyframes colorchange {
   0% {background: #FFBD66;}
   25% {background: #EF617B;}
   50% {background: #D3485D;}
