@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
 }
-body {
-  animation: colorchange 10s infinite;
-  -webkit-animation: colorchange 10s infinite;
+/* body {
+  animation: colorchange 120s infinite;
+  -webkit-animation: colorchange 120s infinite;
 }
 
 @keyframes colorchange {
@@ -21,7 +21,7 @@ body {
   50% {background: #D3485D;}
   75% {background: #475677;}
   100% {background: #283150;}
-}
+} */
 
 .top-section {
   display: flex;
