@@ -21,5 +21,7 @@ function getRandomColor() {
 }
 
 changeColor.addEventListener("click", () => {
-  document.body.style.backgroundColor = getRandomColor();
+  setTimeout(() => {
+    document.body.style.backgroundColor = getRandomColor();
+  }, 200);
 });
