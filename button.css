@@ -1,0 +1,46 @@
+/* #button .ripple {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7),
+} */
+
+.button-effect {
+    position: relative;
+    background-color: #FFFFFF;
+    /* border: none; */
+    font-size: 27px;
+    color: #000000;
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.button-effect:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-effect:active:after {
+    background: #90EE90;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}

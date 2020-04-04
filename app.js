@@ -10,6 +10,7 @@
 
 // Color Gradient
 const changeColor = document.getElementById("changeColor");
+const buttonEffect = document.getElementById("button-effect");
 
 function getRandomColor() {
   const letters = '0123456789ABCDEF';
@@ -24,4 +25,5 @@ changeColor.addEventListener('click', () => {
   setTimeout(() => {
     document.body.style.backgroundColor = getRandomColor();
   }, 200);
+
 });
