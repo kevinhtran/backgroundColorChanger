@@ -26,7 +26,7 @@
 
 .button-effect:after {
     content: "";
-    background: #90EE90;
+    background: #FFFFFF;
     display: block;
     position: absolute;
     padding-top: 300%;
@@ -38,7 +38,7 @@
 }
 
 .button-effect:active:after {
-    background: #90EE90;
+    background: #FFFFFF;
     padding: 0;
     margin: 0;
     opacity: 1;
