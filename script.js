@@ -4,7 +4,11 @@ const author = document.getElementById("author");
 
 let url = "https://type.fit/api/quotes";
 
-clickButton.addEventListener('click', getQuote);
+clickButton.addEventListener('click', () => {
+  setTimeout(() => {
+    getQuote();
+  }, 150);
+});
 
 function getQuote() {
   fetch(url)
